@@ -10,6 +10,7 @@
     --lightgreen: #b5ffcb;
     --white: #fff;
     --black: #000;
+    --dullgreen: #507a5c;
 }
 
 /* misc */
@@ -52,6 +53,35 @@ h1 {
     text-align: center;
 }
 
+a {
+    text-decoration: dotted;
+    text-decoration-line: underline; 
+    color: var(--white);
+}
+
+/* access */
+.email-access {
+    transform: translate(12%, 20%);
+    display: flex;
+    font-size: x-small;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    gap: 5%;
+    top: 70%;
+    left: 41%;
+}
+
+.email-bg {
+    background-color: var(--dullgreen);
+    padding: 1%;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: var(--lightgreen);
+}
+
 /* ids */
 #gootainer {
     display: grid;
@@ -61,3 +91,5 @@ h1 {
     width: 100vw;
     height: 100vh;
 }
+
+
