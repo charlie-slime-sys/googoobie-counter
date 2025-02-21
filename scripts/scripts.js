@@ -8,7 +8,7 @@ function make_goo() {
     let new_goo = document.createElement("img")
     new_goo.src = "low_res_googoobie.jpg";
     count++;
-    goocounter.innerHTML = `GooGoobie Count: ${count}`;
+    goocounter.innerHTML = `Mitosis Count: ${count}`;
     gootainer.appendChild(new_goo);
 
     let sqr = Math.sqrt(count);
